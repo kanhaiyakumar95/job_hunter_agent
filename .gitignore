@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Environment Variables (NEVER COMMIT API KEYS)
+.env
+
+# Project specific generated files
+tailored_resume.md
+tailored_cover_letter.md
+application_proof.png
+seen_jobs.json
+
+# Personal User Data (Don't leak your actual resume)
+base_resume.md
+*.pdf
