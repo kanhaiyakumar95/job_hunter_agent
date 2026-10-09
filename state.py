@@ -1,6 +1,7 @@
 from typing import TypedDict, Optional
 
 class AgentState(TypedDict):
+    search_query: str
     # Job Info
     job_title: Optional[str]
     job_url: Optional[str]

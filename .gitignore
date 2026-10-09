@@ -11,6 +11,15 @@ ENV/
 
 # Environment Variables (NEVER COMMIT API KEYS)
 .env
+*.env
+.env.*
+!.env.example
+
+# Database files (Personal User Data & Scraped Cache)
+*.db
+*.sqlite
+*.sqlite3
+jobs.db
 
 # Project specific generated files
 tailored_resume.md
@@ -21,3 +30,9 @@ seen_jobs.json
 # Personal User Data (Don't leak your actual resume)
 base_resume.md
 *.pdf
+
+# Frontend build & dependencies
+node_modules/
+dist/
+react-frontend/node_modules/
+react-frontend/dist/
